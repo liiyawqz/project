@@ -439,16 +439,29 @@ line-height: normal;
    
     
 }
-@media (max-width: 700){
-    .name{
-        display: none;
+@media (max-width: 768px) {
+    .end__items {
+        flex-direction: column;
+        gap: 20px;
+        text-align: justify;
+    }
+
+    .end__title {
+        margin-bottom: 20px;
+    }
+
+    .end__location,
+    .end__daily {
+        max-width: 100%;
     }
 }
-@media (max-width: 480){
-    
 
-}
-@media (max-width: 360){
-   
+@media (max-width: 480px) {
+    .menu__list {
+        flex-direction: column;
+        gap: 10px;
+        text-align: justify;
+    }
+
 }
 
