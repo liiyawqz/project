@@ -126,9 +126,9 @@ line-height: normal;
 }
 .gallery__items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Две колонки */
-    gap: 20px; /* Расстояние между изображениями */
-    margin-top: 200px; /* Расстояние от верха контейнера */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+    margin-top: 200px; 
 }
 
 .gallery__item {
@@ -144,6 +144,7 @@ line-height: normal;
     left: 0;
     object-fit: cover;
     border-radius: 20px;
+   
     
 }
 .text__slogan p{
@@ -157,6 +158,58 @@ line-height: normal;
     text-align: center;
 
     
+}
+.last{
+    display: flex;
+    justify-content: space-around;
+
+}
+.end__items{
+    max-width: 1240px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 290px;
+}
+.end__title p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    
+}
+.end{
+    padding: 50px;
+    background-color: #FFFAFA;;
+}
+.end__title ul li a{
+    line-height: 40px;    
+}
+.end__location{
+    max-width: 800px;
+    text-align: justify;
+    line-height: 60px;
+}
+.end__location-title h2{
+    margin-top: 10px;
+    font-family: 'Lobster', sans-serif;  
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.end__daily-title h2{
+    margin-top: 10px;
+    font-family: 'Lobster', sans-serif;  
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.end__daily{
+    max-width: 600px;
+    text-align: justify;
+    line-height: 60px;
+}
+.end__symbol{
+    margin-top: 60px;
+    text-align: right;
 }
 
 
