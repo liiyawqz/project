@@ -497,6 +497,35 @@ line-height: normal;
     margin-top: 150px;
     text-align: center;
 }
+.history__image a img{
+    height: 50%;
+    margin-top: 150px;
+    margin-left: 500px;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.history__image a img:hover{
+    transform:scale(1.4) rotate(10deg);
+}
+.history{
+    max-width: 1240px;
+    margin: 150px auto;
+    align-items: center;
+}
+.history__title h2{
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+}
+.history__text{
+    text-align: justify;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 26px;
+}
+
 
 
 
