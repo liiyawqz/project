@@ -480,6 +480,27 @@ line-height: normal;
     color:#8B4513;
     font-size: 35px;
 }
+.info__row{
+    display:flex;
+    flex-direction: column;
+}
+.inside{
+    background: url('img/vino2.jpg')  no-repeat;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.info__title{
+    font-family: 'Lobster', sans-serif;  
+    font-size: 60px;
+    color:#151618;
+    margin-top: 150px;
+    text-align: center;
+}
+
+
+
+
 
 
 @media (max-width: 1000px){
