@@ -497,16 +497,8 @@ line-height: normal;
     margin-top: 150px;
     text-align: center;
 }
-.history__image a img{
-    height: 50%;
-    margin-top: 150px;
-    margin-left: 500px;
-    border-radius: 20px;
-    transition: all .5s;
-}
-.history__image a img:hover{
-    transform:scale(1.4) rotate(10deg);
-}
+
+
 .history{
     max-width: 1240px;
     margin: 150px auto;
@@ -525,8 +517,63 @@ line-height: normal;
     margin: 0 auto;
     font-size: 26px;
 }
+.contains{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
 
+.team__items-img img{
+    margin-top: 100px;
+    height: 50%;
+    border-radius: 50%;
+    
+}
+.team__items-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 720px;
+    font-size: 17px;
+}
+.team__items-title h2{
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team__items-text p{
+    color: darkred;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 24px;
 
+}
+.team__items-text ul li{
+    line-height: 50px;
+    text-align: center;
+}
+.team__plogue{
+    max-width: 720px;
+    padding-top: 300px;
+
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 24px;
+}
+.team__plogue2{
+    padding: 100px 0px 200px 0px;
+    max-width: 720px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 24px;
+}
 
 
 
@@ -587,6 +634,23 @@ line-height: normal;
         color:#8B4513;
         font-size: 35px;
     }
+    .history__title h2{
+        font-family: 'Bebas Neue', sans-serif;
+        padding-bottom: 30px;
+        padding-top: 0px;
+        text-align: center;
+        margin: 0;
+    }
+    .history__text{
+        max-width: 400px;
+        
+    }
+    .team__items-text ul li{
+        line-height: 50px;
+        text-align: justify;
+        max-width: 300px;
+        list-style: circle;
+    }
     
    
     
@@ -597,7 +661,11 @@ line-height: normal;
         gap: 20px;
         text-align: center;
     }
+    .team__plogue{
+        padding-left:40px;
+        padding-right:40px;
 
+    }
     .end__title {
         margin-bottom: 20px;
     }
