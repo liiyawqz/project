@@ -588,7 +588,7 @@ line-height: normal;
     margin-left: 50px;
     max-width: 500px;
     border-radius: 10% 30% 50% 70%;
-    transition: all( 5s);
+    transition:(5s);
 }
 .inform__img img:hover{
     transform: scale(1.1) rotate(12deg)
@@ -750,7 +750,7 @@ tr td:hover {
         margin-left: 140px;
         max-width: 300px;
         border-radius: 10% 30% 50% 70%;
-        transition: all( 5s);
+        transition: (5s);
     }
    
    
