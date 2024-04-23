@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -146,12 +147,12 @@
                         <p class="end__sitemap">
                             SITEMAP
                         </p>
-                        <ul class="end__list">
-                            <li><a href="index.html" class="end__item">Главная</a></li>
-                            <li><a href="assortments.html" class="end__item">Ассортименты<a></li>
-                            <li><a href="about.html" class="end__item">О нас</a></li>
-                            <li><a href="#" class="end__item">Контакты</a></li>
-                        </ul>
+                        <div class="btn-group" role="group" aria-label="Sitemap">
+                            <button type="button" class="btn btn-secondary"><a href="index.html" class="end__item">Главная</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="assortments.html" class="end__item">Ассортименты</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="about.html" class="end__item">О нас</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="contact.html" class="end__item">Контакты</a></button>
+                        </div>
                     </div>
                     <div class="end__location">
                         <div class="end__location-title">
@@ -182,5 +183,8 @@
         
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html> 

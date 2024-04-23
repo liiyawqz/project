@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -112,69 +113,138 @@
                     </div>
                 </div>
             </section>
-            <section class="list">
-                <div class="contain">
-                    <div class="list__title">
-                        <h2>Wine Symphony</h2>
+                <section class="accordion-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3">
+                                <div class="accordion" id="wineAccordion">
+                                    <div class="card">
+                                        <div class="card-header" id="chardonnayHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#chardonnayCollapse" aria-expanded="true" aria-controls="chardonnayCollapse">
+                                                    Chardonnay
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="chardonnayCollapse" class="collapse show" aria-labelledby="chardonnayHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2019, Chardonnay "Lemon Radiance," France</p>
+                                                <p>2020, Chardonnay "Nutty Breeze," New Zealand</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="sauvignonBlancHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#sauvignonBlancCollapse" aria-expanded="false" aria-controls="sauvignonBlancCollapse">
+                                                    Sauvignon Blanc
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="sauvignonBlancCollapse" class="collapse" aria-labelledby="sauvignonBlancHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2018, Sauvignon Blanc "Tropical Passion," South Africa</p>
+                                                <p>2019, Sauvignon Blanc "Citrus Freshness," Chile</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="rieslingHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#rieslingCollapse" aria-expanded="false" aria-controls="rieslingCollapse">
+                                                    Riesling
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="rieslingCollapse" class="collapse" aria-labelledby="rieslingHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2017, Riesling "Blooming Garden," Germany</p>
+                                                <p>2018, Riesling "Honeyed Sweetness," Australia</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Добавьте остальные виды вин по аналогии -->
+                                    <div class="card">
+                                        <div class="card-header" id="merlotHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#merlotCollapse" aria-expanded="false" aria-controls="merlotCollapse">
+                                                    Merlot
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="merlotCollapse" class="collapse" aria-labelledby="merlotHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2016, Merlot "Cherry Harmony," Italy</p>
+                                                <p>2017, Merlot "Chocolate Delight," Argentina</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="cabernetSauvignonHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#cabernetSauvignonCollapse" aria-expanded="false" aria-controls="cabernetSauvignonCollapse">
+                                                    Cabernet Sauvignon
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="cabernetSauvignonCollapse" class="collapse" aria-labelledby="cabernetSauvignonHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2015, Cabernet Sauvignon "Oak Elegance," USA</p>
+                                                <p>2016, Cabernet Sauvignon "Black Currant," France</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="shirazHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#shirazCollapse" aria-expanded="false" aria-controls="shirazCollapse">
+                                                    Shiraz
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="shirazCollapse" class="collapse" aria-labelledby="shirazHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2017, Shiraz "Spicy Notes," South Australia</p>
+                                                <p>2018, Shiraz "Grape Passion," Chile</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="grenacheHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#grenacheCollapse" aria-expanded="false" aria-controls="grenacheCollapse">
+                                                    Grenache
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="grenacheCollapse" class="collapse" aria-labelledby="grenacheHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>2019, Grenache "Blooming Garden," Spain</p>
+                                                <p>2020, Grenache "Gentle Breeze," France</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="champagneHeading">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#champagneCollapse" aria-expanded="false" aria-controls="champagneCollapse">
+                                                    Champagne
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="champagneCollapse" class="collapse" aria-labelledby="champagneHeading" data-parent="#wineAccordion">
+                                            <div class="card-body">
+                                                <p>NV Champagne "Classic Brilliance," France</p>
+                                                <p>2015 Champagne "Luxury in Every Bottle," Italy</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="list__subtitle">
-                        <h4>Chardonnay:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2019, Chardonnay "Lemon Radiance," France</p>
-                        <p>2020, Chardonnay "Nutty Breeze," New Zealand</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4>Sauvignon Blanc:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2018, Sauvignon Blanc "Tropical Passion," South Africa</p>
-                        <p>2019, Sauvignon Blanc "Citrus Freshness," Chile</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4>Riesling:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2017, Riesling "Blooming Garden," Germany</p>
-                        <p>2018, Riesling "Honeyed Sweetness," Australia</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4>Merlot:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2016, Merlot "Cherry Harmony," Italy</p>
-                        <p>2017, Merlot "Chocolate Delight," Argentina</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4>Cabernet Sauvignon:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2015, Cabernet Sauvignon "Oak Elegance," USA</p>
-                        <p>2016, Cabernet Sauvignon "Black Currant," France</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4> Shiraz:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2017, Shiraz "Spicy Notes," South Australia</p>
-                        <p>2018, Shiraz "Grape Passion," Chile</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4> Grenache:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>2019, Grenache "Blooming Garden," Spain</p>
-                        <p>2020, Grenache "Gentle Breeze," France</p>
-                    </div>
-                    <div class="list__subtitle">
-                        <h4>Champagne:</h4>
-                    </div>
-                    <div class="list__text">
-                        <p>NV Champagne "Classic Brilliance," France</p>
-                        <p>2015 Champagne "Luxury in Every Bottle," Italy</p>
-                    </div>
-                </div>
-            </section>
+                </section>
+            
         </main>
     <footer>
         <section class="end">
@@ -184,12 +254,12 @@
                         <p class="end__sitemap">
                             SITEMAP
                         </p>
-                        <ul class="end__list">
-                            <li><a href="index.html" class="end__item">Главная</a></li>
-                            <li><a href="assortments.html" class="end__item">Ассортименты<a></li>
-                            <li><a href="about.html" class="end__item">О нас</a></li>
-                            <li><a href="contact.html" class="end__item">Контакты</a></li>
-                        </ul>
+                        <div class="btn-group" role="group" aria-label="Sitemap">
+                            <button type="button" class="btn btn-secondary"><a href="index.html" class="end__item">Главная</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="assortments.html" class="end__item">Ассортименты</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="about.html" class="end__item">О нас</a></button>
+                            <button type="button" class="btn btn-secondary"><a href="contact.html" class="end__item">Контакты</a></button>
+                        </div>
                     </div>
                     <div class="end__location">
                         <div class="end__location-title">
@@ -220,5 +290,8 @@
         
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html> 
