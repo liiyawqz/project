@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -21,22 +22,30 @@
             <div class="head__inner">
                 <div class="name">Bolotova Aliia it122</div>
                 <a href="mailto:bolotova_a@iuca.kg" class="gmail">bolotova_a@iuca.kg</a>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="index.html" class="menu__link">Главная</a></li>
-                        <li class="menu__item">
-                            <a href="assortments.html" class="menu__link">Ассортименты</a></li>
-                        <li class="menu__item">
-                            <a href="about.html" class="menu__link">О нас</a></li>
-                        <li class="menu__item">
-                            <a href="contact.html" class="menu__link">Контакты</a></li>
-                    </ul>
+                <!-- Использование классов Bootstrap для адаптивного меню -->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Главная</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="assortments.html">Ассортименты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
     </header>
         <main>
+            
            <section class="info">
             <div class="inside">
                 <div class="info__row">
@@ -170,6 +179,9 @@
         </section>
         
     </footer>
-
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html> 

@@ -662,6 +662,41 @@ tr td:hover {
     text-align: center;
 }
 
+.center {
+    background: url('img/proccess.jpeg');
+    border: 3px solid #151618;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    max-width: 900px;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.center__inner {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+    border-radius: 20px;
+}
+
+.card {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
+
+.card-text {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
 
 
 
